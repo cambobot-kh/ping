@@ -115,4 +115,4 @@ client.on('message', message => {
     }
 });
 
-client.login('INSERT USER TOKEN HERE');
+client.login('NDM2NDU5MjgyODg0NzIyNjk5.DbxdjA.OTmDcTgImdLny2PdicxKf1ni5gY');
