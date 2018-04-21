@@ -1,12 +1,12 @@
 const Discord = require("Discord.js");
 const chancejs = require("chance");
-const chance = new chancejs(); //Contains prefix and required stuff
+const chance = new chancejs();
 const prefix = ">"
 var client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('3')
-    console.log('2') //Just to tell you that the bot is alive and running
+    console.log('2') 
     console.log('1')
     console.log("Selfbot is running!");
     console.log("I am on " + client.guilds.size + " servers!")
@@ -18,7 +18,7 @@ let shortcuts = new Map([
     ['lenny', '( ͡° ͜ʖ ͡°)'],
     ['magic', '(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧'],
     ['yay', '( ﾟヮﾟ)'],
-    ['smile', '{◕ ◡ ◕}'], //This is all the emoji stuff
+    ['smile', '{◕ ◡ ◕}'],
     ['wizard', '(∩´• . •`)⊃━☆ﾟ.*'],
     ['happy', '╰( ◕ ᗜ ◕ )╯'],
     ['party', '(つ°ヮ°)つ'],
