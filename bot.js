@@ -10,4 +10,4 @@ const Config = require("./config.json");
 require("./eventloader/loader.js").run(Client);
 
 // log into the bot
-Client.login(Config.token);
+client.login(process.env.BOT_TOKEN);
