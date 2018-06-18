@@ -1,0 +1,5 @@
+{
+  "username": "YouTube",
+  "avatar_url": "https://cdn.discordapp.com/attachments/442655163254308864/458196804224155670/youtube-icon.png",
+  "content": "**{{AuthName}}** Upload New Video ! **{{Title}}** **[ {{Url}} ]**"
+}
